@@ -1,8 +1,0 @@
-It's a great pleasure to participate of a Google's job Applying Process. Like 90% of TI developers, working on Google is a dream that I hope to realize soon.
-I've learned to read by myself with only 4 years old and completed my bachelor with 20 years old.
-I've been using many of Google's APIs in my projects and in the companies I've worked. In my actual job - LabOne - I have developed an application using Google Maps and Google Gears for São Paulo subway controller company, working in a station visited by more than 80000 people every day. Before that, in my last company, I've developed a solution for IPT (an institute of research from a public university here in São Paulo), using Google Mini Appliance in a researching application through thousands of books and documents.
-I've deep technical programming skills delivering always simple but creative solutions, very experienced in Object-Oriented Programming, who loves working in frameworks and APIs. I've even made a Google Maps framework to work in my projects with features like range definition, specific visualization controls and other improvements.
-Thank you for the attention given. I'm very disposed to go wherever be necessary to work on Google.
-Respectfully yours,
-Paulo Henrique
-

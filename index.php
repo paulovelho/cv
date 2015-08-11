@@ -96,7 +96,7 @@
                   <span class="project_icon fa fa-map-marker fa-fw"></span>
                   Galway, Ireland
                 </div>
-                <div class="year">January 2015 - present</div>
+                <div class="year">January 2015 - August 2015</div>
               </div>
               <div class="col-xs-9">
                 <div class="profession">Software developer</div>

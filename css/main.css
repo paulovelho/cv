@@ -97,6 +97,13 @@ DEFAULT BOX
   content: '//';
   margin-right: 5px;
 }
+.box h4 {
+  color: #EC7263;
+  font-size: 1.4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
 .box p{
   font-size: 1.3em;
   line-height: 1.5em;
@@ -185,7 +192,7 @@ EXPERIENCES
   max-width: 130px;
 }
 .job{
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .job .where{
   font-size: 1.4em;
@@ -199,6 +206,7 @@ EXPERIENCES
 }
 .job .year{
   margin-top: 5px;
+  margin-bottom: 10px;
   font-size: 1.3em;
   opacity: 0.7;
 }
@@ -390,6 +398,10 @@ TECH
 /*******************************************
 HOBBIES
 *******************************************/
+.hobbies {
+  padding-bottom: 20px;
+}
+
 .hobby{
   color: #fff;
   display: inline-block;
@@ -409,6 +421,15 @@ HOBBIES
   top: 6px;
   left: 7px;
 }
+
+.hobbies ul{
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+.hobbies ul li {
+  margin-bottom: 7px;
+}
+
 /*******************************************
 MEDIA
 *******************************************/
@@ -432,3 +453,4 @@ MEDIA
     width: 90%;
   }
 }
+

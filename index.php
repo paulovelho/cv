@@ -65,7 +65,7 @@
 
         <div class="col-sm-12 col-md-5">
           <!-- CONTACT -->
-          <div class="visible-md">
+          <div class="hidden-sm hidden-xs">
             <?php include("sections/contact.html"); ?>
           </div>
 

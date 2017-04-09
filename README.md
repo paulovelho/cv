@@ -2,4 +2,4 @@
 Paulo's CV
 
 currently available at: 
-http://paulovelho.com/curriculum/
+http://www.platypusweb.com.br/cv/paulo/

@@ -36,17 +36,17 @@
           <div class="box">
             <h2>Experience</h2>
 
-            <!-- SAVEDO -->
-            <?php include("sections/experience/savedo.html"); ?>
-
-            <!-- ELEMENT -->
-            <?php include("sections/experience/element-wave.html"); ?>
-
             <!-- PLATYPUS -->
             <?php include("sections/experience/platypus.html"); ?>
 
             <!-- BOTECARIA -->
             <?php include("sections/experience/botecaria.html"); ?>
+
+            <!-- SAVEDO -->
+            <?php include("sections/experience/savedo.html"); ?>
+
+            <!-- ELEMENT -->
+            <?php include("sections/experience/element-wave.html"); ?>
 
             <!-- APRIMO -->
             <?php include("sections/experience/aprimo.html"); ?>

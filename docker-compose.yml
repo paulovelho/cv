@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  apache:
+    image: 'php:8.0-apache'
+    container_name: cv-php
+    ports:
+    - '8080:80'
+    volumes:
+    - ./:/var/www/html
+

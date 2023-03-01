@@ -36,6 +36,9 @@
           <div class="box">
             <h2>Experience</h2>
 
+						<!-- PLATYPUS -->
+            <?php include("sections/experience/baires.html"); ?>
+
             <!-- PLATYPUS -->
             <?php include("sections/experience/platypus.html"); ?>
 

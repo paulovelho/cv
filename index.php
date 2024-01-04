@@ -36,14 +36,13 @@
           <div class="box">
             <h2>Experience</h2>
 
-						<!-- PLATYPUS -->
-            <?php include("sections/experience/baires.html"); ?>
-
             <!-- PLATYPUS -->
             <?php include("sections/experience/platypus.html"); ?>
 
             <!-- BOTECARIA -->
             <?php include("sections/experience/botecaria.html"); ?>
+
+            <?php include("sections/experience/baires.html"); ?>
 
             <!-- ALPAR -->
             <?php include("sections/experience/alpar.html"); ?>

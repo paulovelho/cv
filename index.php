@@ -32,7 +32,9 @@
           <!-- EDUCATION -->
           <?php include("sections/education.html"); ?>
 
-          <!-- EXPERIENCES -->
+          <?php include("sections/writer.html"); ?>
+
+					<!-- EXPERIENCES -->
           <div class="box">
             <h2>Experience</h2>
 

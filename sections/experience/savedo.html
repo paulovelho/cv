@@ -1,45 +1,41 @@
-<div class="job clearfix tech tech-javascript tech-mobile tech-angular">
-  <div class="col-lg-3">
-    <div class="logo">
-    <img src="images/savedo-logo.svg" alt="Element Wave" class="logo right" />
+<div class="card job-card reveal tech tech-javascript tech-mobile tech-angular">
+  <div class="job-meta">
+    <div class="job-logo"><img src="images/savedo-logo.svg" alt="Savedo"></div>
+    <div class="job-where">Savedo</div>
+    <div class="job-location"><span class="fa fa-map-marker fa-fw"></span> Berlin, Germany</div>
+    <div class="job-year"><span class="date-start">August 2015</span><span class="date-end">January 2018</span></div>
+    <div class="job-tech">
+      <span class="job-tech-badge">JavaScript</span>
+      <span class="job-tech-badge">Mobile</span>
+      <span class="job-tech-badge">Angular</span>
     </div>
-    <div class="where">Savedo</div>
-    <div class="location">
-      <span class="project_icon fa fa-map-marker fa-fw"></span>
-      Berlin, Germany
-    </div>
-    <div class="year">August 2015 - January 2018</div>
   </div>
-  <div class="col-lg-9">
+  <div class="job-body">
     <div class="profession">Front end developer</div>
     <div class="description">
-      Savedo is one fintech startup, part of Finleap/Hitfox Group.<br/>
-      It provides investment products for germans to invest in other banks through Europe.<br/>
-      I was hired when the company were in their first year and it was amazing to see the company growth and help them in it.<br/>
-      <div class="website">
-        <span class="fa fa-link fa-fw"></span> <a href="https://www.savedo.de/" target="_blank">www.savedo.de</a>
-      </div>
+      Savedo is a fintech startup, part of Finleap/Hitfox Group, providing investment products for Germans to invest in other banks throughout Europe. I was hired when the company was in its first year and it was amazing to see the company grow and to help it get there.
+      <a class="website" href="https://www.savedo.de/" target="_blank" rel="noopener"><span class="fa fa-link fa-fw"></span> www.savedo.de</a>
     </div>
     <ul>
-      <li>Development of a plataform for clients to make investments, money transactions, assets control and every interaction with our product.</li>
-      <li>Application development based in Typescript and Angular 1.0</li>
-      <li>Architecture of APIs and micro-services.</li>
-      <li>Ruby on Rails development of back-end and marketing website.</li>
-      <li>Use of agile methods for development and <b>OKR</b> for defining metas.</li>
+      <li>Development of a platform for clients to make investments, money transactions, assets control and every interaction with our product.</li>
+      <li>Application development based on TypeScript and Angular 1.0</li>
+      <li>Architecture of APIs and micro-services</li>
+      <li>Ruby on Rails development of back-end and marketing website</li>
+      <li>Use of agile methods for development and <b>OKR</b>s for defining goals</li>
     </ul>
-    <div class="projects">
-      <div onClick="expandProject(this);" class="projects_more">
-        <span class="project_icon fa fa-plus-circle fa-fw"></span> Projects
-      </div>
-        <div class="project_desc" style="display:none;">
-        <p>
-          Building the banking application was the biggest task I did during my period at Savedo.<br/>
-          Since the beginning, we decide to use the modern technologies and languages in order to build a platform that could grow healthy and with high-end features.<br/>
-          We developed a full front-end application to interact with a back-end API.<br/>
-          The application was built with Angular 1.0 and Ionic built over Typescript. The whole project was full covered with tests provided by <i>mocha</i> framework. The communication with the main servers were following all the jsonapi patterns.<br/>
-          API was built in Ruby on Rails. Although I was not responsible for the inner engines of the API (backend), it was not rare for me to put my hands on the server code to fix/build something.<br/>
-          <a href="https://banking.savedo.de/" target="_blank" class="outLink">https://banking.savedo.de/</a><br/>
-        </p>
+
+    <button type="button" class="accordion-trigger" aria-expanded="false" data-label-open="Hide projects" data-label-closed="Show projects">
+      <span class="fa fa-chevron-right"></span> <span class="accordion-label">Show projects</span>
+    </button>
+    <div class="accordion-panel">
+      <div class="accordion-inner">
+        <div class="accordion-content">
+          <p>
+            Building the banking application was the biggest task I did during my period at Savedo. From the beginning, we decided to use modern technologies and languages in order to build a platform that could grow healthy and with high-end features. We developed a full front-end application to interact with a back-end API, built with Angular 1.0 and Ionic over TypeScript. The whole project was fully covered with tests provided by the <i>mocha</i> framework, and communication with the servers followed the jsonapi patterns.<br>
+            The API was built in Ruby on Rails; although I wasn't responsible for the inner engines of the API, it wasn't rare for me to put my hands on the server code to fix or build something.<br>
+            <a href="https://banking.savedo.de/" target="_blank" rel="noopener" class="outLink">https://banking.savedo.de/</a>
+          </p>
+        </div>
       </div>
     </div>
   </div>

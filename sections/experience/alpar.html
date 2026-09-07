@@ -1,48 +1,45 @@
-<div class="job clearfix tech tech-javascript tech-mobile tech-angular tech-java tech-node">
-  <div class="col-lg-3">
-    <div class="logo">
-    <img src="images/alpar.png" alt="Element Wave" class="logo right" />
+<div class="card job-card reveal tech tech-javascript tech-mobile tech-angular tech-java tech-node">
+  <div class="job-meta">
+    <div class="job-logo"><img src="images/alpar.png" alt="Alpar"></div>
+    <div class="job-where">Alpar</div>
+    <div class="job-location"><span class="fa fa-map-marker fa-fw"></span> São Paulo, Brazil</div>
+    <div class="job-year"><span class="date-start">November 2018</span><span class="date-end">April 2020</span></div>
+    <div class="job-tech">
+      <span class="job-tech-badge">JavaScript</span>
+      <span class="job-tech-badge">Mobile</span>
+      <span class="job-tech-badge">Angular</span>
+      <span class="job-tech-badge">Java</span>
+      <span class="job-tech-badge">Node</span>
     </div>
-    <div class="where">Alpar</div>
-    <div class="location">
-      <span class="project_icon fa fa-map-marker fa-fw"></span>
-      São Paulo, Brazil
-    </div>
-    <div class="year">November 2018 - April 2020</div>
   </div>
-  <div class="col-lg-9">
+  <div class="job-body">
     <div class="profession">Full stack developer</div>
     <div class="description">
-      Alpar is a consulting company specialized in projects, architecture, support, training, infrastructure and software development and implementation.<br/>
-      <div class="website">
-        <span class="fa fa-link fa-fw"></span> <a href="http://alpar.com.br/" target="_blank">alpar.com.br</a>
-      </div>
+      Alpar is a consulting company specialized in projects, architecture, support, training, infrastructure and software development and implementation.
+      <a class="website" href="http://alpar.com.br/" target="_blank" rel="noopener"><span class="fa fa-link fa-fw"></span> alpar.com.br</a>
     </div>
     <ul>
-      <li>Development of new features in existing system based in Java Framework Liferay</li>
-      <li>Creating from scratch a Mobile application using Ionic Framework</li>
+      <li>Development of new features in an existing system based on the Java framework Liferay</li>
+      <li>Creating from scratch a mobile application using the Ionic Framework</li>
       <li>Working on an internal project using Vue.js and Node</li>
       <li>Teaching and mentoring new employees</li>
-      <li>Dockerizing applications in order to solve long-time problems with infrastructure</li>
+      <li>Dockerizing applications in order to solve long-time infrastructure problems</li>
     </ul>
 
-
-
-    <div class="projects">
-      <div onClick="expandProject(this);" class="projects_more">
-        <span class="project_icon fa fa-plus-circle fa-fw"></span> Projects
-      </div>
-        <div class="project_desc" style="display:none;">
-        <p>
-          The biggest client I've worked with during my time in Alpar was Smiles.<br/>
-          <b>Smiles</b> is a loyalty frequent-flyer program that gave all the challenges to deal with a big company while still working in a small startup and a closely bonded team.<br/>
-          Due to the big size of <b>Smiles</b>, I could work in a lot of different projects, from the main website, which was a Java Liferay application, to internal systems that used angular, and even a foreign website React-based.<br/>
-          <a href="https://www.smiles.com.br" target="_blank" class="outLink">www.smiles.com.br</a><br/>
-          <br/>
-          Another project that I was responsible during my time at Alpar was an Ionic mobile application.<br/>
-          This project was for another big company that already had a web-based application for managing HR related requests, such as vacations and sick days. The company ordered a low-budget simple app for the managers to get notifications on their mobile when an employee requested anything.<br/>
-          The solution was to create an Ionic application that loads the web-based responsive website in a WebView and manages through Firebase the devices and authentication information for each user, therefore sending the push notifications when necessary.
-        </p>
+    <button type="button" class="accordion-trigger" aria-expanded="false" data-label-open="Hide projects" data-label-closed="Show projects">
+      <span class="fa fa-chevron-right"></span> <span class="accordion-label">Show projects</span>
+    </button>
+    <div class="accordion-panel">
+      <div class="accordion-inner">
+        <div class="accordion-content">
+          <p>
+            The biggest client I worked with during my time at Alpar was Smiles. <b>Smiles</b> is a loyalty frequent-flyer program that gave all the challenges of dealing with a big company while still working in a small startup and a closely bonded team. Due to the size of <b>Smiles</b>, I could work on a lot of different projects, from the main website — a Java Liferay application — to internal systems using Angular, and even a foreign React-based website.<br>
+            <a href="https://www.smiles.com.br" target="_blank" rel="noopener" class="outLink">www.smiles.com.br</a>
+          </p>
+          <p>
+            Another project I was responsible for during my time at Alpar was an Ionic mobile application, for another big company that already had a web-based application for managing HR related requests, such as vacations and sick days. The company ordered a low-budget simple app for managers to get notifications on their mobile when an employee requested anything. The solution was an Ionic application that loads the web-based responsive website in a WebView and manages, through Firebase, the devices and authentication information for each user — sending push notifications when necessary.
+          </p>
+        </div>
       </div>
     </div>
   </div>

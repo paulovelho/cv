@@ -1,109 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Paulo Henrique Martins - curriculum vitae</title>
+    <title>Paulo Henrique Martins — Curriculum Vitae</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="description" content="Paulo Henrique Martins — Software Developer. Curriculum vitae, experience and skills.">
     <link href="css/font-awesome.css" rel="stylesheet">
-   	<link rel="stylesheet" rev="stylesheet" href="css/jquery.lightbox.css" type="text/css" media="screen" />
     <link href="css/main.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <?php include("sections/header.html"); ?>
-      <?php include("sections/tech-select.html"); ?>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="scroll-progress"></div>
 
-      <div class="row">
-        <div class="col-sm-12 col-md-7">
-          <!-- ABOUT ME -->
-          <?php include("sections/about-me.html"); ?>
-
-          <!-- CONTACT (for mobile) -->
-          <div class="visible-sm visible-xs">
-            <?php include("sections/contact.html"); ?>
-          </div>
-
-          <!-- EDUCATION -->
-          <?php include("sections/education.html"); ?>
-
-          <?php include("sections/writer.html"); ?>
-
-					<!-- EXPERIENCES -->
-          <div class="box">
-            <h2>Experience</h2>
-
-            <!-- PLATYPUS -->
-            <?php include("sections/experience/platypus.html"); ?>
-
-            <!-- BOTECARIA -->
-            <?php include("sections/experience/botecaria.html"); ?>
-
-            <?php include("sections/experience/baires.html"); ?>
-
-            <!-- ALPAR -->
-            <?php include("sections/experience/alpar.html"); ?>
-
-            <!-- SAVEDO -->
-            <?php include("sections/experience/savedo.html"); ?>
-
-            <!-- ELEMENT -->
-            <?php include("sections/experience/element-wave.html"); ?>
-
-            <!-- APRIMO -->
-            <?php include("sections/experience/aprimo.html"); ?>
-
-           	<!-- EASYPAY -->
-            <?php include("sections/experience/easypay.html"); ?>
-
-            <!-- LABONE -->
-            <?php include("sections/experience/labone.html"); ?>
-
-            <!-- EWTI -->
-            <?php include("sections/experience/ewti.html"); ?>
-
-          </div>
+    <header class="topnav">
+      <div class="topnav-inner">
+        <a class="brand" href="#top">
+          <img src="img/avatar.jpg" alt="">
+          Paulo Martins
+        </a>
+        <nav class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#experience">Experience</a>
+        </nav>
+        <div class="nav-controls">
+          <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">
+            <span class="fa fa-moon-o" aria-hidden="true"></span>
+            <span class="fa fa-sun-o" aria-hidden="true"></span>
+          </button>
+          <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+            <span></span>
+          </button>
         </div>
-
-        <div class="col-sm-12 col-md-5">
-          <!-- CONTACT -->
-          <div class="hidden-sm hidden-xs">
-            <?php include("sections/contact.html"); ?>
-          </div>
-
-          <!-- SKILLS -->
-          <?php include("sections/skill-box.html"); ?>
-
-          <!-- LANGUAGES -->
-          <?php include("sections/languages.html"); ?>
-
-          <!-- HOBBIES -->
-          <?php include("sections/hobbies.html"); ?>
-        </div>
-
       </div>
+    </header>
+
+    <div class="app-shell" id="top">
+      <aside class="sidebar">
+        <?php include("sections/header.html"); ?>
+        <?php include("sections/contact.html"); ?>
+        <?php include("sections/skill-box.html"); ?>
+        <?php include("sections/languages.html"); ?>
+        <?php include("sections/hobbies.html"); ?>
+      </aside>
+
+      <main class="main-content" id="main">
+        <section class="section reveal" id="about">
+          <div class="section-head"><span class="tag">01</span><h2>About Me</h2></div>
+          <?php include("sections/about-me.html"); ?>
+          <?php include("sections/writer.html"); ?>
+        </section>
+
+        <section class="section reveal" id="timeline">
+          <div class="section-head"><span class="tag">02</span><h2>Timeline</h2></div>
+          <?php include("sections/education.html"); ?>
+        </section>
+
+        <section class="section reveal" id="portfolio">
+          <div class="section-head"><span class="tag">03</span><h2>Portfolio</h2></div>
+
+          <div class="portfolio-grid">
+            <?php include("sections/portfolio/magrathea-php2.html"); ?>
+            <?php include("sections/portfolio/guia-lol.html"); ?>
+          </div>
+        </section>
+
+        <section class="section reveal" id="experience">
+          <div class="section-head"><span class="tag">04</span><h2>Experience</h2></div>
+
+          <div class="job-list">
+            <?php include("sections/experience/platypus.html"); ?>
+            <?php include("sections/experience/botecaria.html"); ?>
+            <?php include("sections/experience/baires.html"); ?>
+            <?php include("sections/experience/alpar.html"); ?>
+            <?php include("sections/experience/savedo.html"); ?>
+            <?php include("sections/experience/element-wave.html"); ?>
+            <?php include("sections/experience/aprimo.html"); ?>
+            <?php include("sections/experience/easypay.html"); ?>
+            <?php include("sections/experience/labone.html"); ?>
+            <?php include("sections/experience/ewti.html"); ?>
+          </div>
+        </section>
+      </main>
     </div>
-    <!-- JQUERY -->
-    <script src="js/jquery.min.js"></script>
-    <!-- BOOTSTRAP -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- SCRIPTS -->
-	<script type="text/javascript" src="js/jquery.lightbox.js"></script>
-  <script src="js/scripts.js"></script>
-	<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-		</script>
-		<script type="text/javascript">
-		try {
-		var pageTracker = _gat._getTracker("UA-208212-2");
-		pageTracker._trackPageview();
-		} catch(err) {}
-	</script>
+
+    <footer class="site-footer">
+      &copy; <?php echo date("Y"); ?> Paulo Henrique Martins — built with HTML, CSS &amp; vanilla JS.
+      <br><a href="docs/cv_paulo.pdf">Download CV (PDF)</a>
+    </footer>
+
+    <dialog id="lightbox">
+      <div class="lightbox-frame">
+        <img src="" alt="">
+        <div class="lightbox-controls">
+          <button type="button" class="lightbox-prev" aria-label="Previous image"><span class="fa fa-chevron-left"></span></button>
+          <button type="button" class="lightbox-next" aria-label="Next image"><span class="fa fa-chevron-right"></span></button>
+        </div>
+        <button type="button" class="lightbox-close" aria-label="Close"><span class="fa fa-times"></span></button>
+      </div>
+    </dialog>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+
+    <button id="back-to-top" type="button" aria-label="Back to top">
+      <span class="fa fa-arrow-up"></span>
+    </button>
+
+    <script src="js/scripts.js"></script>
   </body>
 </html>

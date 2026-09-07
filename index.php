@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Paulo Henrique Martins — Software Developer. Curriculum vitae, experience and skills.">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
   </head>

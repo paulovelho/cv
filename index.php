@@ -73,6 +73,7 @@
           <div class="section-head"><span class="tag">04</span><h2>Experience</h2></div>
 
           <div class="job-list">
+            <?php include("sections/experience/toptal.html"); ?>
             <?php include("sections/experience/platypus.html"); ?>
             <?php include("sections/experience/botecaria.html"); ?>
             <?php include("sections/experience/baires.html"); ?>
